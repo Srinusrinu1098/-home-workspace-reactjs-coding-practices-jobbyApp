@@ -1,0 +1,23 @@
+/* NotFound.css */
+.not-found-container {
+  background-color: #000000;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.not-found-image {
+  max-width: 200px;
+}
+
+.not-found-heading {
+  font-size: 14px;
+}
+
+.not-found-text {
+  font-size: 14px;
+  text-align: center;
+}

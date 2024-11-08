@@ -1,0 +1,82 @@
+.main-bg-container {
+  background-color: #000000;
+  height: 100%;
+  width: 100%;
+  padding: 24px;
+}
+
+.sm-input {
+  background: transparent;
+  height: 30px;
+  border: 1px solid #ffffff;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  outline: 0;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.icon-style {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  height: 30px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.input-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.employment-types {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.profile-hr {
+  color: #ffffff;
+}
+
+.retry-container {
+  margin: 24px;
+}
+
+.retry-button {
+  background-color: #6366f1;
+  color: #ffffff;
+  border: none;
+  width: 100px;
+  height: 32px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.loader-container {
+  padding: 28px;
+}
+
+.employment-list {
+  padding: 0;
+  margin: 0;
+}
+
+@media (min-width: 577px) {
+  .main-bg-container {
+    display: flex;
+  }
+  .input-style {
+    display: none;
+  }
+}
+.job-item-div {
+  padding-left: 0px;
+}

@@ -1,0 +1,144 @@
+/* Container for each job listing */
+.listed-ones {
+  margin: 34px;
+  list-style: none;
+  background-color: #272727;
+  padding: 14px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+@media (min-width: 577px) {
+  .listed-ones {
+    display: flex;
+    min-width: 150px;
+  }
+}
+
+/* Flex container for image and title */
+.img-item-flex {
+  display: flex;
+}
+
+.list-img {
+  height: 50px;
+  width: 40px;
+}
+
+.title-and-rating {
+  padding-left: 14px;
+}
+
+.title-heading {
+  color: #ffffff;
+  font-size: 14px;
+  margin: 0;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  padding-top: 6px;
+}
+
+.rating-in-number {
+  padding-left: 8px;
+  margin: 0;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/* Container for job details */
+.location-jobtype-package-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location-and-role {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 160px;
+}
+
+.location-con {
+  display: flex;
+  align-items: center;
+}
+
+.location {
+  font-size: 8px;
+  color: #ffffff;
+  padding-left: 8px;
+  font-weight: 500;
+}
+
+.job-type-con {
+  display: flex;
+  align-items: center;
+}
+
+.job-type {
+  font-size: 8px;
+  color: #ffffff;
+  padding-left: 8px;
+}
+
+.package-con {
+  color: #ffffff;
+}
+
+.package {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/* Description and Visit section */
+.desc-and-visit-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.visit-con {
+  display: flex;
+  color: #6366f1;
+  font-weight: 500;
+  align-items: center;
+}
+
+.life-at-company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 577px) {
+  .life-at-company {
+    flex-direction: row;
+  }
+}
+
+.image {
+  min-width: 50px;
+  max-width: 150px;
+  padding-top: 10px;
+}
+
+@media (min-width: 750px) {
+  .image {
+    min-width: 200px;
+    padding-left: 10px;
+  }
+  .ull {
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+}
+.ull {
+  padding: 0;
+  margin: 0;
+}

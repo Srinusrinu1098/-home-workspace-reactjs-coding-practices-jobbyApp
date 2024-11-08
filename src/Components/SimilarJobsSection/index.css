@@ -1,0 +1,80 @@
+/* SimilarJobsSection.css */
+
+.listed-ones {
+  margin: 34px;
+  list-style: none;
+  background-color: #272727;
+  padding: 14px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-img {
+  height: 50px;
+  width: 40px;
+}
+
+.img-item-flex {
+  display: flex;
+}
+
+.title-and-rating {
+  padding-left: 14px;
+}
+
+.title-heading {
+  color: #ffffff;
+  font-size: 14px;
+  margin: 0;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  padding-top: 6px;
+}
+
+.rating-in-number {
+  padding-left: 8px;
+  margin: 0;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.location-job-type-package-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location-and-role {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 160px;
+}
+
+.location-con {
+  display: flex;
+  align-items: center;
+}
+
+.location {
+  font-size: 8px;
+  color: #ffffff;
+  padding-left: 8px;
+  font-weight: 500;
+}
+
+.job-type-con {
+  display: flex;
+  align-items: center;
+}
+
+.job-type {
+  font-size: 8px;
+  color: #ffffff;
+  padding-left: 8px;
+}

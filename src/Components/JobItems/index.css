@@ -1,0 +1,74 @@
+.icon-style {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  height: 30px;
+  width: 60px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  cursor: pointer;
+}
+
+@media (min-width: 577px) {
+  .icon-style {
+    display: flex;
+  }
+}
+
+.sm-input {
+  background: transparent;
+  height: 30px;
+  border: 1px solid #ffffff;
+  width: 300px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  outline: 0;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+@media (min-width: 577px) {
+  .sm-input {
+    display: inline;
+  }
+}
+
+.no-jobs-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+@media (min-width: 577px) {
+  .no-jobs-display {
+    justify-content: flex-start;
+  }
+}
+
+.no-jobs-display-img {
+  padding-top: 14px;
+  width: 200px;
+}
+
+@media (min-width: 577px) {
+  .no-jobs-display-img {
+    padding-top: 94px;
+    width: 400px;
+    justify-content: flex-start;
+  }
+}
+.input-style1 {
+  display: none;
+}
+@media (min-width: 576px) {
+  .input-style1 {
+    display: flex;
+    padding-left: 32px;
+  }
+}

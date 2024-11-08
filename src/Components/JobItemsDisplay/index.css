@@ -1,0 +1,93 @@
+.job-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.list-img {
+  height: 50px;
+  width: 40px;
+}
+
+.img-item-flex {
+  display: flex;
+}
+
+.title-and-rating {
+  padding-left: 14px;
+}
+
+.title-heading {
+  color: #ffffff;
+  font-size: 14px;
+  margin: 0;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  padding-top: 6px;
+}
+
+.star-icon {
+  color: #fbbf24;
+}
+
+.rating-number {
+  padding-left: 8px;
+  margin: 0;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.location-job-type-package-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location-and-role {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 160px;
+}
+
+.location-con,
+.job-type-con {
+  display: flex;
+  align-items: center;
+}
+
+.location,
+.job-type {
+  font-size: 8px;
+  color: #ffffff;
+  padding-left: 8px;
+  font-weight: 500;
+}
+
+.package-con {
+  color: #ffffff;
+}
+
+.package {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.separator {
+  margin: 0;
+  padding: 0;
+}
+
+.description-title {
+  color: #ffffff;
+  margin: 0;
+  font-size: 12px;
+  padding-top: 8px;
+}
+
+.description {
+  color: #ffffff;
+}

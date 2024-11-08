@@ -1,0 +1,10 @@
+/* SalaryRange.css */
+.list-item {
+  list-style: none;
+  padding-bottom: 8px;
+}
+
+.label-item {
+  color: #ffffff;
+  padding-left: 8px;
+}

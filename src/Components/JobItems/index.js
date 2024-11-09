@@ -55,6 +55,7 @@ class JobItems extends Component {
     try {
       const response = await fetch(url, options)
       const data = await response.json()
+      console.log(response.ok)
       if (response.ok) {
         const updatedList = data.jobs.map(each => ({
           id: each.id,
@@ -88,11 +89,7 @@ class JobItems extends Component {
   }
 
   renderProgresss = () => (
-    <div
-      className="loader-container"
-      data-testid="loader"
-      style={{paddingLeft: '388px', paddingTop: '250px'}}
-    >
+    <div className="loader-container1" data-testid="loader">
       <Loader type="ThreeDots" color="#ffffff" height="50" width="50" />
     </div>
   )
@@ -113,7 +110,14 @@ class JobItems extends Component {
   }
 
   renderFailures = () => (
-    <div style={{paddingLeft: '10px', color: '#ffffff', textAlign: 'center'}}>
+    <div
+      style={{
+        paddingLeft: '30px',
+        paddingTop: '40px',
+        color: '#ffffff',
+        textAlign: 'center',
+      }}
+    >
       <img
         src="https://assets.ccbp.in/frontend/react-js/failure-img.png"
         alt="failure view"
@@ -161,11 +165,7 @@ class JobItems extends Component {
 
     return (
       <div style={{position: 'relative', height: '100vh', Width: '850px'}}>
-        <button
-          type="button"
-          className="input-style1"
-          data-testid="searchButton"
-        >
+        <div className="input-style1">
           <input
             type="search"
             className="sm-input"
@@ -176,7 +176,7 @@ class JobItems extends Component {
           <div className="icon-style">
             <BsSearch onClick={this.searchs} />
           </div>
-        </button>
+        </div>
         <div
           style={{
             overflowY: 'scroll',

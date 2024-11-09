@@ -32,7 +32,7 @@ class JobDetails extends Component {
     const {params} = match
     const {id} = params
 
-    const jwtToken = Cookies.get('Token')
+    const jwtToken = Cookies.get('jwt_token')
 
     const url = `https://apis.ccbp.in/jobs/${id}`
     const options = {

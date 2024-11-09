@@ -2,7 +2,7 @@ import './index.css'
 
 const EmploymentType = props => {
   const {values, inputValueRecive, inputValueRemove} = props
-  const {label} = values
+  const {employmentTypeId, label} = values
   const inputValueSend = event => {
     if (event.target.checked === true) {
       inputValueRecive(event.target.value)
@@ -15,7 +15,7 @@ const EmploymentType = props => {
     <li className="list-item">
       <input
         type="checkbox"
-        value={label}
+        value={employmentTypeId}
         onChange={inputValueSend}
         className="input-item-check"
       />

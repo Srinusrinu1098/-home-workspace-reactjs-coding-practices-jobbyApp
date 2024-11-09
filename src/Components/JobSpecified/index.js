@@ -96,36 +96,34 @@ const JobSpecified = props => {
             padding: '14px',
           }}
         >
-          <ul>
-            {skills.map(each => (
-              <div
-                key={each.toolsName}
+          {skills.map(each => (
+            <div
+              key={each.toolsName}
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+                marginRight: '50px',
+                marginBottom: '30px',
+                alignItems: 'center',
+                maxWidth: '100px',
+              }}
+            >
+              <img
+                src={each.image}
+                alt={each.toolsName}
+                style={{width: '50px'}}
+              />
+              <p
                 style={{
-                  display: 'flex',
-                  justifyContent: 'center',
-                  marginRight: '50px',
-                  marginBottom: '30px',
-                  alignItems: 'center',
-                  maxWidth: '100px',
+                  color: '#ffffff',
+                  fontSize: '8px',
+                  paddingLeft: '6px',
                 }}
               >
-                <img
-                  src={each.image}
-                  alt={each.toolsName}
-                  style={{width: '50px'}}
-                />
-                <p
-                  style={{
-                    color: '#ffffff',
-                    fontSize: '8px',
-                    paddingLeft: '6px',
-                  }}
-                >
-                  {each.toolsName}
-                </p>
-              </div>
-            ))}
-          </ul>
+                {each.toolsName}
+              </p>
+            </div>
+          ))}
         </div>
 
         <h1

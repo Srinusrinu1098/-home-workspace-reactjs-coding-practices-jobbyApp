@@ -72,3 +72,17 @@
     padding-left: 32px;
   }
 }
+.loader-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+@media (min-width: 576px) {
+  .loader-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+}

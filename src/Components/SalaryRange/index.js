@@ -2,7 +2,7 @@ import './index.css'
 
 const SalaryRange = props => {
   const {values1, changeTheRadio} = props
-  const {label} = values1
+  const {salaryRangeId, label} = values1
 
   const changeTheSalary = event => {
     changeTheRadio(event.target.value)
@@ -12,7 +12,7 @@ const SalaryRange = props => {
     <li className="list-item">
       <input
         type="radio"
-        value={label}
+        value={salaryRangeId}
         name="salary"
         onChange={changeTheSalary}
       />

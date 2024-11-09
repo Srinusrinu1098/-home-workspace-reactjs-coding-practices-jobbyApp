@@ -43,6 +43,7 @@
 @media (min-width: 577px) {
   .paragraph {
     font-size: 22px;
+    min-width: 50px;
     max-width: 600px;
   }
 }

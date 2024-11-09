@@ -11,8 +11,19 @@
   height: 100vh;
 }
 
+@media (min-width: 577px) {
+  .loader-container {
+    padding-left: 8%;
+  }
+  .failure-view {
+    padding-top: 250px;
+    color: #ffffff;
+    text-align: center;
+  }
+}
+
 .failure-view {
-  padding-top: 250px;
+  padding-top: 82px;
   color: #ffffff;
   text-align: center;
 }

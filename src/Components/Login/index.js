@@ -43,10 +43,10 @@ class Login extends Component {
       if (response.ok) {
         this.renderSuccess(data.jwt_token)
       } else if (response.status === 400) {
-        this.renderFailure(data.error_msg) /
+        this.renderFailure(data.error_msg)
       }
     } catch (error) {
-      this.renderFailure('Something went wrong, please try again later.') // Handle network or other errors
+      this.renderFailure('Something went wrong, please try again later.')
     }
   }
 

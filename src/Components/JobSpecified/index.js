@@ -34,23 +34,23 @@ const JobSpecified = props => {
             </div>
           </div>
         </div>
-        <ul>
-          <div className="location-jobtype-package-con">
-            <div className="location-and-role">
-              <div className="location-con">
-                <MdLocationOn style={{color: '#ffffff'}} />
-                <p className="location">{location}</p>
-              </div>
-              <div className="job-type-con">
-                <BsFillBriefcaseFill style={{color: '#ffffff'}} />
-                <p className="job-type">{employmentType}</p>
-              </div>
+
+        <div className="location-jobtype-package-con">
+          <div className="location-and-role">
+            <div className="location-con">
+              <MdLocationOn style={{color: '#ffffff'}} />
+              <p className="location">{location}</p>
             </div>
-            <div className="package-con">
-              <p className="package">{packages}</p>
+            <div className="job-type-con">
+              <BsFillBriefcaseFill style={{color: '#ffffff'}} />
+              <p className="job-type">{employmentType}</p>
             </div>
           </div>
-        </ul>
+          <div className="package-con">
+            <p className="package">{packages}</p>
+          </div>
+        </div>
+
         <hr style={{margin: '0', padding: '0'}} />
         <div className="desc-and-visit-con">
           <h1

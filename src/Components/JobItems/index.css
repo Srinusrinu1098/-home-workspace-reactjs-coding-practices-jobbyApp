@@ -59,6 +59,7 @@
 @media (min-width: 577px) {
   .no-jobs-display-img {
     padding-top: 94px;
+    padding-left: 94px;
     width: 400px;
     justify-content: flex-start;
   }
